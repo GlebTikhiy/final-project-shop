@@ -1,0 +1,47 @@
+.home-page {
+    padding: 0;
+  }
+  
+  .home-page h1 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333333;
+    margin-bottom: 24px;
+    text-align: center;
+  }
+  
+  .product-list {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    overflow-x: auto;
+    padding-bottom: 16px;
+    scrollbar-width: thin;
+    scrollbar-color: #4a90e2 #e0e0e0;
+  }
+  
+  .product-list::-webkit-scrollbar {
+    height: 8px;
+  }
+  
+  .product-list::-webkit-scrollbar-track {
+    background: #e0e0e0;
+    border-radius: 4px;
+  }
+  
+  .product-list::-webkit-scrollbar-thumb {
+    background: #4a90e2;
+    border-radius: 4px;
+  }
+  
+  .product-list .product-card {
+    flex: 0 0 250px;
+    min-width: 250px;
+  }
+  
+  .home-page p {
+    text-align: center;
+    font-size: 16px;
+    color: #666666;
+    margin: 16px 0;
+  }

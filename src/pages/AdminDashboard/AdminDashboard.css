@@ -1,0 +1,137 @@
+.admin-dashboard {
+    padding: 0;
+  }
+  
+  .admin-dashboard h1 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333333;
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  
+  .admin-dashboard h2 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #333333;
+    margin: 24px 0 16px;
+  }
+  
+  .admin-dashboard form {
+    display: flex;
+    flex-direction: column; /* Оригинальная вертикальная форма */
+    gap: 16px;
+    max-width: 400px;
+    margin: 0 auto 40px;
+    background-color: #ffffff;
+    padding: 24px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    animation: fadeIn 0.5s ease-out;
+  }
+  
+  .admin-dashboard input,
+  .admin-dashboard textarea {
+    padding: 12px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .admin-dashboard input:focus,
+  .admin-dashboard textarea:focus {
+    border-color: #4a90e2;
+    box-shadow: 0 0 0 3px rgba(74, 144, 226, 0.1);
+    outline: none;
+  }
+  
+  .admin-dashboard textarea {
+    min-height: 100px;
+    resize: vertical;
+  }
+  
+  .admin-dashboard label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #333333;
+    margin-bottom: 4px;
+  }
+  
+  .admin-dashboard button[type="submit"] {
+    background-color: #4a90e2;
+    color: #ffffff;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+  }
+  
+  .admin-dashboard button[type="submit"]:hover {
+    background-color: #357abd;
+    transform: scale(1.05);
+  }
+  
+  .admin-dashboard table {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+    animation: fadeIn 0.5s ease-out;
+  }
+  
+  .admin-dashboard th,
+  .admin-dashboard td {
+    padding: 16px;
+    text-align: left;
+    font-size: 14px;
+    color: #333333;
+  }
+  
+  .admin-dashboard th {
+    background-color: #f9f9f9;
+    font-weight: 600;
+  }
+  
+  .admin-dashboard td {
+    border-top: 1px solid #e0e0e0;
+  }
+  
+  .admin-dashboard button {
+    background-color: #4a90e2;
+    color: #ffffff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+    margin-right: 8px;
+  }
+  
+  .admin-dashboard button:hover {
+    background-color: #357abd;
+    transform: scale(1.05);
+  }
+  
+  .admin-dashboard button:nth-child(2) {
+    background-color: #e63946;
+  }
+  
+  .admin-dashboard button:nth-child(2):hover {
+    background-color: #d00000;
+  }
+  
+  .admin-dashboard p {
+    color: #e63946;
+    font-size: 14px;
+    margin-top: 8px;
+    text-align: center;
+  }

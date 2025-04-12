@@ -1,0 +1,74 @@
+.admin-login-page {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 24px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    animation: fadeIn 0.5s ease-out;
+  }
+  
+  .admin-login-page h1 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333333;
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  
+  .admin-login-page form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .admin-login-page label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #333333;
+    margin-bottom: 4px;
+  }
+  
+  .admin-login-page input {
+    padding: 12px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .admin-login-page input:focus {
+    border-color: #4a90e2;
+    box-shadow: 0 0 0 3px rgba(74, 144, 226, 0.1);
+    outline: none;
+  }
+  
+  .admin-login-page button {
+    background-color: #4a90e2;
+    color: #ffffff;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+  }
+  
+  .admin-login-page button:hover {
+    background-color: #357abd;
+    transform: scale(1.05);
+  }
+  
+  .admin-login-page button:disabled {
+    background-color: #a0c4ff;
+    cursor: not-allowed;
+    transform: none;
+  }
+  
+  .admin-login-page p {
+    color: #e63946;
+    font-size: 14px;
+    margin-top: 8px;
+    text-align: center;
+  }
