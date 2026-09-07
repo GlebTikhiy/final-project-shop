@@ -56,7 +56,7 @@ Make sure you have **Node.js** (v16.0 or higher) and **npm** installed on your m
 
 1. **Clone the repository:**
   ```bash
-  git clone [https://github.com/your-username/final-project-shop.git](https://github.com/your-username/final-project-shop.git)
+  git clone https://github.com/GlebTikhiy/final-project-shop.git
   cd final-project-shop
   ```
 
